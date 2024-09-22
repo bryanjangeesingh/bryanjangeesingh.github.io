@@ -1,19 +1,58 @@
-name: Bryan Jangeesingh
-dp: https://raw.githubusercontent.com/bryanjangeesingh/bryanjangeesingh.github.io/refs/heads/main/screenshots/portrait.JPG
-description: "
-  <p>
-    Developed by Bryan Jangeesingh
-  </p>
-  <br/>
-  <p>
-    You should follow me on LinkedIn 
-  </P>
-"
-email: dev_sharad@outlook.com
-contact:
-  - title: linkedin
-    url: https://www.linkedin.com/in/bryanjangeesingh
-  - title: github
-    url: https://github.com/bryanjangeesingh
-  - title: email
-    url: mailto:bryanjangeesingh@gmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryan Jangeesingh's Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      background-color: #333;
+      padding: 1rem;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    section {
+      padding: 20px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="#software">Software</a>
+    <a href="#hardware">Hardware</a>
+    <a href="#ai">AI</a>
+  </div>
+
+  <!-- Sections -->
+  <section id="software">
+    <h2>Software</h2>
+    <p>This is where your software-related content will go.</p>
+  </section>
+
+  <section id="hardware">
+    <h2>Hardware</h2>
+    <p>This is where your hardware-related content will go.</p>
+  </section>
+
+  <section id="ai">
+    <h2>AI</h2>
+    <p>This is where your AI-related content will go.</p>
+  </section>
+
+</body>
+</html>
