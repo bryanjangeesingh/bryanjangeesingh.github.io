@@ -130,17 +130,13 @@
           </span>
           <p>
             Hardware development has always been a passion of mine. I had a
-            passion for electrical engineering based projects but I quickly
+            passion for electrical engineering-based projects but I quickly
             fell in love with hardware design after taking a Digital Systems class. Here are some
             of the projects I have worked on:
           </p>
-          <br />
-          <!-- Have each list item habe the same h2 heading and be able to display a picture with some text below the picture describing the project -->
           <ul>
             <li>
-              <h3 style="display: flex; align-items: center">
-                Aurras: Open-Field Active Noise Cancellation on an FPGA
-              </h3>
+              <h3>Aurras: Open-Field Active Noise Cancellation on an FPGA</h3>
               <p style="display: flex; justify-content: center">
                 <a href="https://github.com/bryanjangeesingh/Environmental-Noise-Cancellation" target="_blank">
                   <i class="fab fa-github" style="font-size: 1.5rem"></i>
@@ -159,14 +155,58 @@
               <div style="width: 100%; height: 0; position: relative; padding-bottom: 150%;">
                 <iframe src="https://drive.google.com/file/d/1uO8anBLxOO9jlZjqWC6yd5A6J4-6FZpc/preview" style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
               </div>
-                <br />
-                <br />
+              <p>
                 You can also watch a demonstration of the system <a href="https://drive.google.com/file/d/1H_8Vh0sZ4b8JX4qVb7jK7s0qJhTmOQ8WQ/view?usp=sharing">video</a> of the system below:
               </p>
               <div style="width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
                 <iframe src="https://drive.google.com/file/d/12xfbOWdh06RouMXWw8hUOVHeaovkhgr_/preview" style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
               </div>
-
+            </li>  
+            <br />
+            <br />
+            <li>
+              <h3>720p HDMI Video Signal Generator with Sprite Management</h3>
+              <p style="display: flex; justify-content: center">
+                <a href="https://github.com/bryanjangeesingh/720pVideoSprite" target="_blank">
+                  <i class="fab fa-github" style="font-size: 1.5rem"></i>
+                </a>
+              </p>
+              <p>
+                I designed and implemented a 720p video signal generation system on an FPGA, capable of driving HDMI output. 
+                The project involved creating a custom module to generate sync signals and manage active drawing regions for 720p video, following the raster pattern. 
+                I integrated modules for sprite rendering, including movable square and circle shapes, and managed their behavior using input controls. 
+                The design also incorporated a TMDS (Transmission Minimized Differential Signaling) encoder to efficiently transmit video data to an HDMI display.
+              </p>
+              <p></p>
+                You can watch a demonstration <a href="https://drive.google.com/file/d/1AUFB0lUS8_Sd4hcsXMdVDzvT27FHyeuG/preview">video</a> of the system below:
+              </p>
+              <div style="width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+                <iframe src="https://drive.google.com/file/d/1AUFB0lUS8_Sd4hcsXMdVDzvT27FHyeuG/preview" style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
+              </div>
+            </li>
+            <br />
+            <br />
+            <li>
+              <h3>PopCat Animator on FPGA</h3>
+              <p style="display: flex; justify-content: center">
+                <a href="https://github.com/bryanjangeesingh/PopCatMemory" target="_blank">
+                  <i class="fab fa-github" style="font-size: 1.5rem"></i>
+                </a>
+              </p>
+              <p>
+              In this project, I developed a system to display and animate an image sprite (PopCat meme) on an FPGA. 
+              Using Verilog, I implemented modules for image storage in block RAM, sprite rendering, and random position generation. 
+              The project involved optimizing memory usage through image palette compression and creating a pipelined system to display the sprite on an HDMI display. 
+              Additionally, I integrated a pseudo-random number generator to move the sprite around the screen and animate the PopCat’s mouth opening and closing.
+              </p>
+              <p></p>
+                You can watch a demonstration <a href="https://drive.google.com/file/d/1RJ3z2f-l5t8ORG_eNMZvDP2V8k92QIIj/preview">video</a> of the system below:
+              </p>
+              <div style="width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+                <iframe src="https://drive.google.com/file/d/1RJ3z2f-l5t8ORG_eNMZvDP2V8k92QIIj/preview" style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
         </article>
 
         <!-- AI Section -->
