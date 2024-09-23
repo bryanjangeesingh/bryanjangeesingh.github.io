@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--
+	Modified Dimension by Bryan Jangeesingh
+-->
+<html>
+  <head>
+    <title>Bryan Jangeesingh - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div
+          class="profile-container"
+          style="display: flex; align-items: center; justify-content: center"
+        >
+          <!-- Profile Image -->
+          <img
+            src="https://raw.githubusercontent.com/bryanjangeesingh/bryanjangeesingh.github.io/refs/heads/main/screenshots/portrait.JPG"
+            alt="Bryan Jangeesingh's Profile"
+            style="
+              border-radius: 50%;
+              width: 150px;
+              height: auto;
+              margin-right: 20px;
+            "
+          />
+
+          <!-- Text Description -->
+          <div class="content">
+            <h1>
+              Bryan Jangeesingh
+            </h1>
+            <p style="display: flex; justify-content: center">
+              <a href="www.linkedin.com/in/bryanjangeesingh" target="_blank">
+                <i class="fab fa-linkedin" style="margin-right: 10px; font-size: 2rem"></i>
+              </a>
+              <a href="https://github.com/bryanjangeesingh" target="_blank">
+                <i class="fab fa-github" style="font-size: 2rem"></i>
+              </a>
+            </p>
+            <p>
+              I am a Senior at MIT studying Electrical Engineering and Computer
+              Science.<br />
+              <br />  
+              <p>I have interests in Software Engineering, Machine Learning,
+              and Hardware Development.</p>
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#ai">ML</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Main -->
+      <div id="main">
+        <!-- Software Section -->
+        <article id="software">
+          <h2 class="major">Software</h2>
+          <span class="image logo"
+            ><img
+              src="images/python.png"
+              alt="Software Image"
+              style="width: 4rem; height: 4rem"
+          /></span>
+          <p>
+          Under construction. 
+          </p>
+        </article>
+
+        <!-- Hardware Section -->
+        <article id="hardware">
+          <h2 class="major">Hardware</h2>
+          <span class="image main" style="width: 5rem; height: 2.5rem">
+            <img src="images/sv_logo.png" alt="Hardware Image" style="width: 100%; height: 100%">
+          </span>
+          <p>
+            Hardware development has always been a passion of mine. I had a
+            passion for electrical engineering based projects but I quickly
+            fell in love with hardware design after taking a Digital Systems class. Here are some
+            of the projects I have worked on:
+          </p>
+          <br />
+          <!-- Have each list item habe the same h2 heading and be able to display a picture with some text below the picture describing the project -->
+          <ul>
+            <li>
+              <h3 style="display: flex; align-items: center">
+                Aurras: Open-Field Active Noise Cancellation on an FPGA
+              </h3>
+              <p style="display: flex; justify-content: center">
+                <a href="https://github.com/bryanjangeesingh/Environmental-Noise-Cancellation" target="_blank">
+                  <i class="fab fa-github" style="font-size: 1.5rem"></i>
+                </a>
+              </p>
+              <span class="image fit"><img src="images/aurras.png" alt="Aurras Image" /></span>
+              <p>
+                This project introduces **Aurras**, a lightweight FPGA-based system designed for open-field noise cancellation. 
+                The system dynamically reduces environmental noise by using impulse-based calibration to adapt to the acoustics of any indoor environment. 
+                It processes sound via microphones and speakers, using convolution and delay techniques to generate "anti-noise" signals that interfere destructively with unwanted sound waves. 
+                It is implemented on a Spartan-7 FPGA, optimized for low memory and computational use, and achieves significant noise reduction across a broad frequency range, especially between 500-900 Hz.
+              </p>
+              <p>
+                You can read the <a href="https://drive.google.com/file/d/1uO8anBLxOO9jlZjqWC6yd5A6J4-6FZpc" target="_blank">report</a> below:
+              </p>
+              <div style="width: 100%; height: 0; position: relative; padding-bottom: 150%;">
+                <iframe src="https://drive.google.com/file/d/1uO8anBLxOO9jlZjqWC6yd5A6J4-6FZpc/preview" style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
+              </div>
+                <br />
+                <br />
+                You can also watch a demonstration of the system <a href="https://drive.google.com/file/d/1H_8Vh0sZ4b8JX4qVb7jK7s0qJhTmOQ8WQ/view?usp=sharing">video</a> of the system below:
+              </p>
+              <div style="width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+                <iframe src="https://drive.google.com/file/d/12xfbOWdh06RouMXWw8hUOVHeaovkhgr_/preview" style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe>
+              </div>
+
+        </article>
+
+        <!-- AI Section -->
+        <article id="ai">
+          <h2 class="major">Machine Learning</h2>
+          <span class="image icon">
+            <img src="images/pytorch.png" alt="Hardware Image" style="width: 10rem; height: 4rem">
+          </span>
+          <p>
+            I am particularly interested in the fields of Natural Language
+            Processing and Computer Vision. I have experience working on
+            projects related to Person Re-Identification, which involves using
+            machine learning models to identify individuals in images and video
+            frames. I have used frameworks like PyTorch and TensorFlow to
+            implement these models.
+          </p>
+        </article>
+
+        <!-- Contact Section -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send Message" class="primary" />
+              </li>
+              <li><input type="reset" value="Reset" /></li>
+            </ul>
+          </form>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/bryanjangeesingh"
+                class="icon brands fa-linkedin"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/bryanjangeesingh"
+                class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:bryanjangeesingh@gmail.com"
+                class="icon solid fa-envelope"
+                ><span class="label">Email</span></a
+              >
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">&copy; Bryan Jangeesingh</p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
