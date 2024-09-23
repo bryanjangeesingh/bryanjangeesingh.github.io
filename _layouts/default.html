@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <main>
+      {% include header.html %}
+
+      <!-- Navbar -->
+      <nav>
+        <ul>
+          <li><a href="#software">Software</a></li>
+          <li><a href="#hardware">Hardware</a></li>
+          <li><a href="#ai">AI</a></li>
+        </ul>
+      </nav>
+
+      <!-- Content Section -->
+      <section class="content">
+        {{ content }}
+      </section>
+
+      {% include footer.html %}
+    </main>
+    {% include category-modal.html %}
+  </body>
+</html>
